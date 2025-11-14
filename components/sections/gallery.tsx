@@ -62,7 +62,7 @@ export default function Gallery() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true, margin: "-100px" }}
         >
-          <GradientHeading text="Scratch & Reveal" className="text-5xl md:text-6xl mb-4" />
+          <GradientHeading text="Moments & Memories" className="text-5xl md:text-6xl mb-4" />
           <p className="text-foreground/70 text-lg drop-shadow-md">
             Discover special memories — scratch the cards!
           </p>
