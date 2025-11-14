@@ -77,7 +77,7 @@ export default function ClosingSection() {
             joy, elegance, and celebration.
           </motion.p>
 
-          {/* See You Soon text with enhanced animation */}
+{/* See You Soon text with enhanced animation */}
 <motion.div className="mb-12" variants={itemVariants}>
   <motion.p
     className="text-4xl md:text-5xl font-serif font-bold drop-shadow-lg"
@@ -95,27 +95,58 @@ export default function ClosingSection() {
 </motion.div>
 
 
-          {/* Social icons with enhanced animations */}
-          <motion.div className="flex justify-center gap-6 mb-12 flex-wrap" variants={containerVariants}>
-            {[
-              { icon: Mail, label: "Email", color: "text-lilac" },
-              { icon: MessageSquare, label: "WhatsApp", color: "text-mint" },
-              { icon: Share2, label: "Instagram", color: "text-peach" },
-            ].map((social, i) => {
-              const Icon = social.icon
-              return (
-                <motion.button
-                  key={i}
-                  className={`glass p-5 rounded-full ${social.color} hover:shadow-2xl transition-all duration-300 border-2 border-lilac/20 hover:border-lilac/40 backdrop-blur-md`}
-                  variants={itemVariants}
-                  whileHover={{ y: -15, scale: 1.2, boxShadow: "0 20px 40px rgba(200, 150, 200, 0.3)" }}
-                  whileTap={{ scale: 0.9 }}
-                >
-                  <Icon className="w-7 h-7" />
-                </motion.button>
-              )
-            })}
-          </motion.div>
+ {/* Social icons with enhanced animations */}
+<motion.div className="flex justify-center gap-6 mb-12 flex-wrap" variants={containerVariants}>
+  <motion.button
+    onClick={() => {
+      const subject = encodeURIComponent("Birthday Invitation");
+      const body = encodeURIComponent("Hi! You're invited to my special celebration. Here is the invitation link:");
+      window.open(`mailto:?subject=${subject}&body=${body}`, "_blank");
+    }}
+    className="glass p-5 rounded-full text-lilac hover:shadow-2xl transition-all duration-300 border-2 border-lilac/20 hover:border-lilac/40 backdrop-blur-md"
+    variants={itemVariants}
+    whileHover={{ y: -15, scale: 1.2, boxShadow: "0 20px 40px rgba(200, 150, 200, 0.3)" }}
+    whileTap={{ scale: 0.9 }}
+  >
+    <Mail className="w-7 h-7" />
+  </motion.button>
+
+  <motion.button
+    onClick={() => {
+      const text = encodeURIComponent("You're invited to the celebration! 🎉 Check the invite: https://your-site-link.com");
+      window.open(`https://wa.me/?text=${text}`, "_blank");
+    }}
+    className="glass p-5 rounded-full text-mint hover:shadow-2xl transition-all duration-300 border-2 border-lilac/20 hover:border-lilac/40 backdrop-blur-md"
+    variants={itemVariants}
+    whileHover={{ y: -15, scale: 1.2, boxShadow: "0 20px 40px rgba(200, 150, 200, 0.3)" }}
+    whileTap={{ scale: 0.9 }}
+  >
+    <MessageSquare className="w-7 h-7" />
+  </motion.button>
+
+  <motion.button
+    onClick={() => {
+      const shareData = {
+        title: "Birthday Invitation",
+        text: "You're invited to the celebration! 🎉",
+        url: "https://celebrate-birthday-invite.vercel.app//",
+      };
+
+      if (navigator.share) {
+        navigator.share(shareData);
+      } else {
+        navigator.clipboard.writeText(shareData.url);
+        alert("Link copied to clipboard!");
+      }
+    }}
+    className="glass p-5 rounded-full text-peach hover:shadow-2xl transition-all duration-300 border-2 border-lilac/20 hover:border-lilac/40 backdrop-blur-md"
+    variants={itemVariants}
+    whileHover={{ y: -15, scale: 1.2, boxShadow: "0 20px 40px rgba(200, 150, 200, 0.3)" }}
+    whileTap={{ scale: 0.9 }}
+  >
+    <Share2 className="w-7 h-7" />
+  </motion.button>
+</motion.div>
 
           {/* Closing text */}
           <motion.p
