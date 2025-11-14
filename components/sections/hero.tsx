@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ChevronDown } from "lucide-react"
 import { RevealText } from "@/components/animations/text-animations"
 
 const containerVariants = {
@@ -140,22 +139,6 @@ export default function Hero() {
         >
           See Details ↓
         </motion.button>
-
-        {/* Enhanced scroll indicator */}
-        <motion.div
-        className="flex justify-center cursor-pointer"
-        onClick={() => {
-          const section = document.getElementById("event-details")
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth", block: "start" })
-          }
-        }}
-        animate={{ y: [0, 12, 0], opacity: [0.6, 1, 0.6] }}
-        transition={{ duration: 2.5, repeat: Number.POSITIVE_INFINITY }}
-        whileHover={{ scale: 1.1 }}
-      >
-        <ChevronDown className="w-8 h-8 text-[#8b6ea3] opacity-90 hover:opacity-100 transition-opacity duration-300" />
-      </motion.div>
       </motion.div>
     </section>
   )
