@@ -56,7 +56,8 @@ Final thank-you message with share icons and heartfelt tone.
 ---
 
 ## Preview
-link here
+
+https://celebrate-birthday-invite.vercel.app
 
 ---
 
