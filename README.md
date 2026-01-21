@@ -79,5 +79,5 @@ https://celebrate-birthday-invite.vercel.app
 # Install dependencies
   npm install
 
-# Run the development server
+#4️⃣ Run the development server
   npm run dev
