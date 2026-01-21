@@ -70,7 +70,7 @@ https://celebrate-birthday-invite.vercel.app
 ## ⚙️ Installation  
 
 ```bash
-# Clone the repository
+#1️⃣ Clone the repository
   git clone https://github.com/yourusername/celebrate-invite.git
 
 # Navigate to the project directory
