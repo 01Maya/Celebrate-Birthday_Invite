@@ -70,11 +70,11 @@ https://celebrate-birthday-invite.vercel.app
 ## ⚙️ Installation  
 
 ```bash
-#  Clone the repository
+# Clone the repository
 1️⃣ git clone https://github.com/yourusername/celebrate-invite.git
 
-#2️⃣ Navigate to the project directory
-  cd celebrate-invite
+#  Navigate to the project directory
+2️⃣ cd celebrate-invite
 
 #3️⃣ Install dependencies
   npm install
