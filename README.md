@@ -73,7 +73,7 @@ https://celebrate-birthday-invite.vercel.app
 #   Clone the repository
 1️⃣ git clone https://github.com/yourusername/celebrate-invite.git
 
-#  Navigate to the project directory
+#   Navigate to the project directory
 2️⃣ cd celebrate-invite
 
 #  Install dependencies
