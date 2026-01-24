@@ -76,7 +76,7 @@ https://celebrate-birthday-invite.vercel.app
 #   Navigate to the project directory
 2️⃣ cd celebrate-invite
 
-#  Install dependencies
+#   Install dependencies
 3️⃣ npm install
 
 #  Run the development server
