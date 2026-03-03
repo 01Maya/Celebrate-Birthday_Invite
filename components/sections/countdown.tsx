@@ -54,7 +54,7 @@ export default function Countdown() {
 
   useEffect(() => {
     // 🎯 Set your target event date and time here
-    const targetDate = new Date("2025-11-26T18:30:00").getTime()
+    const targetDate = new Date("2026-03-08T18:20:00").getTime()
     // ^ Example: Dec 14, 2025, 6:30 PM (local time)
 
     const calculateTimeLeft = () => {
