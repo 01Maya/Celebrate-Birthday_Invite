@@ -16,7 +16,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "You're Invited! 🎈 Birthday Celebration",
+  title: "You're Invited! 🎈 Birthday Celebration✨",
   description: "Join us for an unforgettable birthday celebration filled with joy, elegance, and luxury vibes.",
   viewport: {
     width: "device-width",
