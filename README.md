@@ -23,7 +23,7 @@ Built using **Next.js**, **Framer Motion**, and **Tailwind CSS**, this site comb
 
 ---
 
-## 🧩 Section Details  
+## 🧩 Section Details  🗂️
 
 ### 🏠 Hero Section  
 Soft pastel gradient background, animated “You’re Invited!” heading, and floating confetti.  
