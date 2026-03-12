@@ -45,7 +45,7 @@ Final thank-you message with share icons and heartfelt tone.
 
 ---
 
-## 🧠 Tech Stack  
+## 🧠 Tech Stack  💪🏻
 
 | Technology | Purpose |
 |-------------|----------|
