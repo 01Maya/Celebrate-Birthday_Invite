@@ -1,6 +1,6 @@
 
 
-# 🎉 Celebrate – Elegant Birthday Invitation Website  
+# 🎉 Celebrate – Elegant Birthday Invitation Website  📲
 
 An elegant, joyful, and interactive **birthday invitation website** crafted with soft pastel gradients, playful animations, and a luxurious UI.  
 Built using **Next.js**, **Framer Motion**, and **Tailwind CSS**, this site combines celebration and modern design into one elegant experience.  
