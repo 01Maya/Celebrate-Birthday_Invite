@@ -7,7 +7,7 @@ Built using **Next.js**, **Framer Motion**, and **Tailwind CSS**, this site comb
 
 ---
 
-## ✨ Features  
+## ✨ Features ⚡️
 
 - 🎈 **Interactive Hero Section** – Smooth animations, gradient heading, and elegant confetti.  
 - 💌 **Event Details Section** – Displays What, When, and Where with soft glass effects.  
