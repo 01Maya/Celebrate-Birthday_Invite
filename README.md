@@ -63,7 +63,7 @@ https://celebrate-birthday-invite.vercel.app
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshot 🪄
 ![Image](https://github.com/user-attachments/assets/b3ff0b88-b46d-4731-9e44-7835824d4c45)
 
 
