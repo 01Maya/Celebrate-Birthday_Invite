@@ -69,7 +69,7 @@ https://celebrate-birthday-invite.vercel.app
 
 ---
 
-## ⚙️ Installation  
+## ⚙️ Installation 📎
 
 ```bash
 #   Clone the repository
