@@ -85,3 +85,5 @@ https://celebrate-birthday-invite.vercel.app
 4️⃣ npm run dev
 
 ---
+
+### Made by Maya
