@@ -86,4 +86,4 @@ https://celebrate-birthday-invite.vercel.app
 
 ---
 
-### Made by Maya
+# Made by Maya
